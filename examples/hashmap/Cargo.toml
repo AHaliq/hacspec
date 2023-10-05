@@ -1,0 +1,16 @@
+[package]
+name = "hacspec-hashmap"
+version = "0.1.0"
+authors = ["Abdul Haliq <haliq12@gmail.com>"]
+edition = "2018"
+
+[lib]
+path = "src/hashmap.rs"
+
+[dependencies]
+hacspec-lib = { path = "../../lib" }
+
+[dev-dependencies]
+hacspec-dev = { path = "../../utils/dev" }
+criterion = "0.4"
+rand = "0.8"
